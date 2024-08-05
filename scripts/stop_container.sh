@@ -1,8 +1,8 @@
 #!/bin/bash
-set -e
+#set -e
 
 # Stop the running container (if any)
-<<<<<<< HEAD
-containerID=docker ps | awk -F " " '{$print1}'
+
+containerID='docker ps | awk -F" " '{$print1}''
 docker rm -f $containerID
 
